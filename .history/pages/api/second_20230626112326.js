@@ -1,0 +1,5 @@
+import { random } from "./random";
+
+export default function handler(req, res) {
+  res.status(200).json(random);
+}
